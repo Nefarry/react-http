@@ -12,7 +12,7 @@ class GetList extends Component {
     }
 
     clickHandler = () => {
-        axios.get('https://jsonplaceholder.typicode.com/posasdts')
+        axios.get('https://jsonplaceholder.typicode.com/posts')
         .then((response) => {
             this.setState({
                 posts: response.data
